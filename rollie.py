@@ -39,7 +39,7 @@ def rollie_pollie():
         transfer_radius += paper_thickness
         new_roll_length += 2 * pi * transfer_radius
         original_length -= 2 * pi * transfer_radius
-    return(print("Turn the transfer roll (360 degrees)" + str(turns)+ ' times, or (180 degrees)'+str(turns/2)+' times.'))
+    return(print("Turn the transfer roll (360 degrees)" + str(turns)+ ' times, or (180 degrees)'+str(turns*2)+' times.'))
 
 
 
